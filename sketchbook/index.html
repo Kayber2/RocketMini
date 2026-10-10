@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Sketchbook</title>
+    <!-- Port console: fontes Google removidas (100% offline), serve.py local entrega tudo -->
+    <link href="build/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading-screen">
+		<div id="loading-screen-background"></div>
+		<h1 id="main-title" class="sb-font">Sketchbook 0.4</h1>
+		<div class="cubeWrap">
+			<div class="cube">
+				<div class="faces1"></div>
+				<div class="faces2"></div>     
+			</div> 
+		</div> 
+		<div id="loading-text">Loading...</div>
+    </div>
+
+    <div id="ui-container" style="display: none;">
+        <div class="left-panel">
+            <div id="controls" class="panel-segment flex-bottom"></div>
+        </div>
+    </div>
+
+    <!-- Adaptador do port (perf, saída SELECT+START, sem pointer lock) -->
+    <script src="port-init.js"></script>
+    <script src="build/sketchbook.min.js"></script>
+    <script>
+        let world = new Sketchbook.World('build/assets/world.glb');
+    </script>
+</body>
+</html>

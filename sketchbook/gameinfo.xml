@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./Sketchbook.sh</path>
+    <name>Sketchbook 0.4</name>
+    <desc>Playground 3D de código aberto em three.js + cannon.js. Controle de personagem em terceira pessoa, veículos (carros, aviões, helicópteros), física real e mundo abado. Port web para console com gamepad completo.</desc>
+    <releasedate>20200401T000000</releasedate>
+    <developer>swift502</developer>
+    <publisher>swift502</publisher>
+    <genre>Action</genre>
+    <image>./sketchbook/screenshot.png</image>
+    <playcount>0</playcount>
+  </game>
+</gameList>
